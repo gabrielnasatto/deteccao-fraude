@@ -1,0 +1,20 @@
+# dados do curso (não redistribuir) e dados gerados
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# banco local
+*.duckdb
+*.duckdb.wal
+
+# python
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+
+# sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
